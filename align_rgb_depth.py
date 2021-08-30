@@ -1,6 +1,7 @@
 # This code displays a depth and rgb image that have the same resolution and view the same things.
 # This means a binary mask of an item from such an rgb image corresponds correctly to the same item within the depth image.
 # This is based off the background deletion demo from pyrealsense
+# Used on the D435i camera
 
 import pyrealsense2 as rs
 import numpy as np
